@@ -1,0 +1,48 @@
+{
+  "project": "Physical AI & Humanoid Robotics Textbook",
+  "goal": "Create an AI/Spec-Driven textbook teaching Physical AI and Humanoid Robotics, deployable as a Docusaurus site with embedded RAG chatbot",
+  "audience": "Students and developers learning robotics, AI engineers, hackathon reviewers",
+  "chapters": [
+    "01-intro",
+    "02-core",
+    "03-howto",
+    "04-examples",
+    "05-appendix"
+  ],
+  "acceptance": {
+    "each_chapter_outcomes": 3,
+    "word_count_min": 600,
+    "word_count_max": 900,
+    "code_runnable": true,
+    "references_per_chapter": 3,
+    "site_responsive": true
+  },
+  "modules": {
+    "module1": {
+      "title": "The Robotic Nervous System (ROS 2)",
+      "focus": "Middleware for robot control",
+      "topics": ["ROS 2 Nodes", "Topics", "Services", "rclpy", "URDF"]
+    },
+    "module2": {
+      "title": "The Digital Twin (Gazebo & Unity)",
+      "focus": "Physics simulation and environment building",
+      "topics": ["Gazebo simulation", "Unity rendering", "LiDAR", "Depth Cameras", "IMUs"]
+    },
+    "module3": {
+      "title": "The AI-Robot Brain (NVIDIA Isaac)",
+      "focus": "Advanced perception and training",
+      "topics": ["Isaac Sim", "Isaac ROS", "VSLAM", "Nav2", "Path planning"]
+    },
+    "module4": {
+      "title": "Vision-Language-Action (VLA)",
+      "focus": "Convergence of LLMs and Robotics",
+      "topics": ["OpenAI Whisper", "Voice-to-Action", "Cognitive Planning", "Autonomous Humanoid"]
+    }
+  },
+  "deliverables": {
+    "docusaurus_site": true,
+    "rag_chatbot": true,
+    "demo_video_max_seconds": 90,
+    "github_repo": "https://github.com/fizza-shareef/physical-ai-humanoid-guide"
+  }
+}

@@ -11,8 +11,8 @@ const config = {
     v4: true,
   },
 
-  url: "https://fizza-shareef.github.io",
-  baseUrl: "/physical-ai-humanoid-guide/",
+  url: "https://book-site-fizza-shareefs-projects.vercel.app",
+  baseUrl: "/",
 
   organizationName: "fizza-shareef",
   projectName: "physical-ai-humanoid-guide",

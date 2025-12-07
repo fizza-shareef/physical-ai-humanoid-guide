@@ -32,7 +32,7 @@ git push -u origin main --force
 **Fields to fill:**
 
 - GitHub Repo URL: `https://github.com/fizza-shareef/physical-ai-humanoid-guide`
-- Live Site URL: `<PASTE_VERCEL_OR_GITHUB_PAGES_URL>`
+- Live Site URL: `https://book-site-a69i1dvkz-fizza-shareefs-projects.vercel.app`
 - Demo Video: `<YOUTUBE_LINK>` (must be ≤90 seconds)
 - WhatsApp: Your number
 
